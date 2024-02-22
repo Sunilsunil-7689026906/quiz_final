@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Pdowin",
+    "slug": "santoshkumarsharma",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff",
+        "permissions": [
+          "READ_EXTERNAL_STORAGE"
+        ]
+      },
+      "package": "com.sunilkumar76.Pdowin",
+      "config": {
+        "apk": {
+          "buildType": "apk"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4bdd148e-85d5-4d09-b343-90eb6da201c7"
+      }
+    }
+  }
+}
